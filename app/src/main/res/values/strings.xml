@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="start">Start</string>
+    <string name="pikachu">Pikachu</string>
+
+   <string name="namaPokemon">%1$s</string>
+    <string name="detail">Detail</string>
+    <string name="abilities">Abilities</string>
+    <string name="cari_pokemon">Cari Pokemon</string>
+    <string name="sort">sort</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="pokedex">Pokedex</string>
+</resources>

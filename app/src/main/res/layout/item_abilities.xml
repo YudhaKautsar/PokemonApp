@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txtAbilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/pikachu"
+        android:textStyle="bold"
+        android:padding="@dimen/_10dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/recangel"
+        android:textSize="24sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="@dimen/_10dp"
+        app:drawableStartCompat="@drawable/kekutan_deleted_done" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
